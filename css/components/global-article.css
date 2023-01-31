@@ -1,0 +1,38 @@
+.global-article {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.global-article > .txt1 {
+    display: block;
+    color: rgb(28, 185, 200);
+}
+.global-article > .line {
+    width: 50px;
+    height: 1px;
+    border: 1px solid #000;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: calc(50% - 25px);
+    position: relative;
+}
+.global-article > .line::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    display: block;
+    position: absolute;
+    left: 23px;
+    bottom: -3px;
+    background-color: #F6FCFD;
+}
+.global-article > .txt2 {
+    display: block;
+    font-size: 34px;
+    font-family: RobotoSlab;
+    color: rgb(27, 33, 47);
+}
