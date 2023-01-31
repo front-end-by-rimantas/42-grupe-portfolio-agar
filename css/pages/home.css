@@ -46,23 +46,28 @@
     background-position: center;
     background-size: contain;
     position: relative;
+    text-align: center;
 }
 .working-proc-section > .pictures > .block> .block-img {
+    display: block;
+    margin-left: 74px;
+    margin-top: 40px;
     width: 56px;
     height: 56px;
-    position: absolute;
-    top: 25%;
-    left: 35%;
 }
 .working-proc-section > .pictures > .block > .block-txt {
+    display: block;
     font-size: 22px;
     font-family: RobotoSlab;
+    color: #fff;
+}
+.working-proc-section > .pictures > .block > .block-num {
+    font-size: 16px;
     position: absolute;
     color: #fff;
-    top: 58%;
-    left: 33%;
+    bottom: 10px;
+    left: 120px;
 }
-.working-proc-section
 /* working process: end */
 
 /* our project: start */
