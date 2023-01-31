@@ -36,14 +36,33 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
 
 }
 .working-proc-section > .pictures > .block {
     width: 200px;
     height: 180px;
-    background-color: aqua;
+    background-image: url(../../img/working-process/bgn-picture.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
 }
+.working-proc-section > .pictures > .block> .block-img {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.working-proc-section > .pictures > .block > .block-txt {
+    font-size: 22px;
+    font-family: RobotoSlab;
+    position: absolute;
+    color: #fff;
+    top: 58%;
+    left: 33%;
+}
+.working-proc-section
 /* working process: end */
 
 /* our project: start */
