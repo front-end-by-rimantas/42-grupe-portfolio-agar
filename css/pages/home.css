@@ -1,13 +1,45 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../components/navbar.css';
 /* 3rd-party */
 /* components */
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
-/* header: start */
-/* header: end */
+/* banner: start */
+/* banner: end */
+
+/* about: start */
+/* about: end */
+
+/* services: start */
+/* services: end */
+
+/* why us: start */
+/* why us: end */
+
+/* working process: start */
+/* working process: end */
+
+/* our project: start */
+/* our project: end */
+
+/* Numbers: start */
+/* Numbers: end */
+
+/* Reviews: start */
+/* Reviews: end */
+
+/* Contact: start */
+/* Contact: end */
+
+/* Blogs: start */
+/* Blogs: end */
+
+/* Subscribe: start */
+/* Subscribe: end */
+
 
 /* footer: start */
 /* footer: end */
