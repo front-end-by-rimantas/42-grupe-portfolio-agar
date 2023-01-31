@@ -14,7 +14,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/42-grupe-portfolio-agar/
+Site published at: https://front-end-by-rimantas.github.io/42-grupe-portfolio-agar
 
 Design: [Agar](https://angfuzsoft.com/themeforest/wordpress/agar/)
 
