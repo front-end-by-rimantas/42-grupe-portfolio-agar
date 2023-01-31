@@ -20,6 +20,28 @@
 /* why us: end */
 
 /* working process: start */
+.global-article {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.global-article > .txt1 {
+    display: block;
+    color: rgb(28, 185, 200);
+}
+.global-article > .txt2 {
+    display: block;
+    font-size: 34px;
+    color: rgb(27, 33, 47);
+}
+.working-proc-section {
+    width: 100%;
+    height: 600px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #F6FCFD;
+}
 /* working process: end */
 
 /* our project: start */
