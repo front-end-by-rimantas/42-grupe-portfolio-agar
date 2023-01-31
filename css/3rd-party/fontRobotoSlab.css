@@ -2,3 +2,8 @@
     font-family: RobotoSlab;
     src: url(../../fonts/RobotoSlab-Bold.ttf);
 }
+@font-face {
+    font-family: DMSans;
+    src: url(../../fonts/DMSans-Regular.ttf);
+}
+

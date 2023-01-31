@@ -63,10 +63,27 @@
 }
 .working-proc-section > .pictures > .block > .block-num {
     font-size: 16px;
+    font-family: DMSans;
     position: absolute;
     color: #fff;
     bottom: 10px;
-    left: 120px;
+    left: 118px;
+}
+@media (max-width: 990px) {
+    .working-proc-section > .pictures {
+        gap: 200px;
+    }
+}
+@media (max-width: 700px) {
+    .working-proc-section > .pictures {
+        gap: 130px;
+    }
+}
+@media (max-width: 570px) {
+    .working-proc-section > .pictures > .block {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 /* working process: end */
 
