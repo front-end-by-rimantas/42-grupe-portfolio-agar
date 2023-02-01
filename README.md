@@ -4,7 +4,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Omex
+# Agar
 
 _website design project_
 
@@ -14,9 +14,9 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/40-grupe-portfolio/
+Site published at: https://front-end-by-rimantas.github.io/42-grupe-portfolio-agar
 
-Design: [Omex-3](https://finestwp.co/demos/wp/omex/landing-03/), [Omex-5](https://finestwp.co/demos/wp/omex/landing-05/)
+Design: [Agar](https://angfuzsoft.com/themeforest/wordpress/agar/)
 
 ## 🎯 Project features/goals
 
@@ -51,7 +51,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/40-grupe-portfolio.git
+    git clone https://github.com/front-end-by-rimantas/42-grupe-portfolio-agar
     ```
 2. Install NPM packages
     ```sh
@@ -72,7 +72,10 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Rimantas: [Github](https://github.com/RimasZ) <br>
+Vytautas: [Github](https://github.com/VytautasValutis) <br>
+Monika: [Github](https://github.com/MonikaJaraite)<br>
+Katažina: [Github](https://github.com/KriemiKat) <br>
 
 ## ⚠️ License
 
