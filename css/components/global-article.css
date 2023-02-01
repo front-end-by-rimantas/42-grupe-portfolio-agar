@@ -21,14 +21,14 @@
 }
 .global-article > .line::after {
     content: '';
-    width: 4px;
-    height: 4px;
+    width: 5px;
+    height: 5px;
     border-radius: 8px;
     border: 2px solid #000;
     display: block;
     position: absolute;
     left: 23px;
-    bottom: -3px;
+    bottom: -4px;
     background-color: #F6FCFD;
 }
 .global-article > .txt2 {

@@ -24,19 +24,19 @@
 /* working process: start */
 .working-proc-section {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     background-color: #F6FCFD;
 }
 .working-proc-section > .pictures {
     width: 100%;
-    height: 222px;
+    /* height: 222px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 
 }
 .working-proc-section > .pictures > .block {
@@ -47,6 +47,12 @@
     background-size: contain;
     position: relative;
     text-align: center;
+}
+.working-proc-section > .pictures > .process-img {
+    width: 129px;
+    height: 28px;
+    margin-top: 60px;
+    display: block;
 }
 .working-proc-section > .pictures > .block> .block-img {
     display: block;
@@ -69,17 +75,30 @@
     bottom: 10px;
     left: 118px;
 }
-@media (max-width: 990px) {
+@media (max-width: 1400px) {
+    .working-proc-section > .pictures .process-img {
+        display: none;
+    }
     .working-proc-section > .pictures {
-        gap: 200px;
+        gap: 100px;
+    }
+}    
+@media (max-width: 1200px) {
+    .working-proc-section > .pictures {
+        gap: 50px;
+    }
+}    
+@media (max-width: 992px) {
+    .working-proc-section > .pictures {
+        gap: 30px 200px;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .working-proc-section > .pictures {
-        gap: 130px;
+        gap: 30px 100px;
     }
 }
-@media (max-width: 570px) {
+@media (max-width: 576px) {
     .working-proc-section > .pictures > .block {
         margin-left: 10px;
         margin-right: 10px;
