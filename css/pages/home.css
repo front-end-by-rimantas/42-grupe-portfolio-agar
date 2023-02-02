@@ -19,19 +19,33 @@
 
 /* services: start */
 .services-container {
-    min-height: 100vh;
+    height: 1035px;
+    padding: 120px 0 105px;
     background-image: url(../../img/our-services/shape-1-1.webp);
     background-position: center center;
-    /* background-attachment: fixed; */
     background-size: cover;
 }
 .services-block {
     display: block;
-    width: 246px;
+    width: 307px;
     height: 208px;
     padding: 30px 30px 22px;
-    background-color: hotpink;
+    background-color: #fff;
     float: right;
+}
+.services-block > .img {
+    width: 68px;
+    height: 65px;
+    margin-bottom: 18
+    px;
+}
+.services-block > .head {
+    font-family: RobotoSlab;
+    font-size: 24px;
+}
+.services-block > .txt {
+    font-family: DMSans;
+    font-size: 16px;
 }
 /* services: end */
 
