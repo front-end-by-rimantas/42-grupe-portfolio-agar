@@ -18,6 +18,13 @@
 /* about: end */
 
 /* services: start */
+.services-container {
+    min-height: 100vh;
+    background-image: url(../../img/our-services/shape-1-1.webp);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
 .services-block {
     display: block;
     width: 246px;
