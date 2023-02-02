@@ -2,7 +2,6 @@
     background-image: url(../../img/contact-us.png);
     background-position: center;
     background-size: cover;
-    display: flex;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -12,11 +11,7 @@
     padding: 6em 0;
     color: #fff;
 }
-/*
-.numbers > .thousand {
-    width: 25%;
+
+.grow > h1 {
+    text-align: center;
 }
-.numbers > .thousand > .value {
-    font-size: 60px;
-    padding-bottom: 0.1em;
-}*/
