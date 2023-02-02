@@ -1,0 +1,22 @@
+.contact{
+    background-image: url(../../img/contact-us.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+    gap: 30px 0;
+    text-align: center;
+    padding: 6em 0;
+    color: #fff;
+}
+/*
+.numbers > .thousand {
+    width: 25%;
+}
+.numbers > .thousand > .value {
+    font-size: 60px;
+    padding-bottom: 0.1em;
+}*/
