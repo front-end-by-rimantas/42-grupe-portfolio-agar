@@ -42,10 +42,14 @@
 .services-block > .head {
     font-family: RobotoSlab;
     font-size: 24px;
+    text-transform: capitalize;
 }
 .services-block > .txt {
     font-family: DMSans;
     font-size: 16px;
+}
+.services-container > .serv-btn {
+    margin-left: calc(50% - 100px);
 }
 /* services: end */
 
