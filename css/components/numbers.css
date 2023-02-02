@@ -1,0 +1,46 @@
+.numbers {
+    background-image: url(../../img/numbers-forest.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.value {
+    font-size: 46px;
+    padding-bottom: 0.1em;
+}
+.label {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 0.2em;
+}
+
+@media (min-width: 992px){
+    .value{
+        font-size: 60px;
+    }
+    .label{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px){
+    .value{
+        font-size: 72px;
+    }
+    .label{
+        font-size: 20px;
+    }
+}
+
+/* @media (min-width: 1400px){
+    .value{
+        font-size: 90px;
+    }
+    .label{
+        font-size: 24px;
+    }
+} */
