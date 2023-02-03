@@ -1,17 +1,26 @@
-.contact{
+.contact {
     background-image: url(../../img/contact-us.png);
     background-position: center;
     background-size: cover;
+    display: flex;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    flex-wrap: wrap;
     gap: 30px 0;
     text-align: center;
-    padding: 6em 0;
+    padding: 0.8em 0;
     color: #fff;
+    font-size: 35px;
 }
 
-.grow > h1 {
+
+.contact-me > .grow {
+    display: flex;
     text-align: center;
+    background-position: center;
+    padding-top: 60px;
+}
+
+.contact > .btn {
+    font-size: 25px;
 }
