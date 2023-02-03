@@ -4,3 +4,7 @@
     background-size: cover;
 }
 
+.form > a {
+    color: rgb(28, 185, 200);
+}
+
