@@ -33,7 +33,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
 }
 .services-block {
     display: block;
@@ -84,13 +84,28 @@
     .services-block {
         display: block;
         width: 261px;
+        height: 323px;
     }
 }
 @media (min-width: 1300px) {
-    .services-container > .services-row {
-        width: 1300px;
-        margin-left: calc(50% - 650px);
+    .services-block {
+        display: block;
+        width: calc((100% - 1300px) / 4 + 298px);
+        height: 261px;
     }
+}
+@media (min-width: 1360px) {
+    .services-block {
+        display: block;
+        width: 312px;
+        height: 261px;
+    }
+}
+@media (min-width: 1600px) {
+    .services-container > .services-row {
+        width: 1600px;
+        margin-left: calc(50% - 800px);
+        }
 }
 /* services: end */
 
