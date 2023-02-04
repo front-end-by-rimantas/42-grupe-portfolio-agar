@@ -1,6 +1,5 @@
 .subscribe {
-    /* background-color: #f7fdfe; */
-background-color: aqua;
+    background-color: #f7fdfe;
     background-image: url(../../img/subscribe/newsletter-background.webp);
     background-position: center;
     background-size: cover;
@@ -12,13 +11,14 @@ background-color: aqua;
     background-color: #fff;
     /* padding: 1em 0; */
     border-radius: 1.3em;
-    padding: 0.1em;
+    padding: 0.2em;
 }
 
 .form > a {
     margin-left: 1em;
     color: rgb(28, 185, 200);
     background-color: #fff;
+    text-decoration: none;
     border-radius: 5em;      
     padding: 0.5em;
 }
@@ -26,6 +26,10 @@ background-color: aqua;
 .form > input {
     border: solid #fff;
     font-size: 16px;
-    padding: 0.6em;
+    padding: 0.6em 7em 0.6em 0;
     outline: none;
 } 
+
+.form > input::placeholder {
+    color: black;
+}
