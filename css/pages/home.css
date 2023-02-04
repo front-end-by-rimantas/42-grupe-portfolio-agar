@@ -19,35 +19,39 @@
 
 /* services: start */
 .services-container {
-    width: 100%;
     min-height: 1035px;
     padding: 120px 0 105px;
     background-image: url(../../img/our-services/shape-1-1.webp);
     background-position: center center;
     background-size: cover;
+    display: block;
 }
-.services-container > .services-row {
-    width: 100%;
-    /* padding: 0 12px 0 12px; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+.container > .services-row {
+    display: block;
 }
 .services-block {
     display: block;
-    width: calc(100% - 24px);
+    width: 456px;
     height: 227px;
-    padding: 30px 30px 22px 30px;
     background-color: #fff;
-    float: right;
+    float: left;
+    margin-top: 20px;
+}
+.ml-block-1,
+.ml-block-2,
+.ml-block-3,
+.ml-block-4,
+.ml-block-5,
+.ml-block-6,
+.ml-block-7,
+.ml-block-8
+{
+    margin-left: calc((100% - 456px) / 2);    
 }
 .services-block > .img {
     width: 68px;
     height: 65px;
-    margin-bottom: 18
-    px;
+    margin-bottom: 18px;
 }
 .services-block > .head {
     font-family: RobotoSlab;
@@ -62,50 +66,26 @@
     margin-left: calc(50% - 100px);
     margin-top: 50px;
 }
-@media (min-width: 540px) {
-    .services-block {
-        display: block;
-        width: 516px;
-    }
-}
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .services-block {
         display: block;
         width: 336px;
+        height: 255px;
+    }
+    .ml-first {
+        margin-left: calc(50% - 148px);
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
     .services-block {
         display: block;
         width: 298px;
+        height: 259px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: calc(16.5% - 149px);
+        margin-right: calc(16.5% - 149px);
     }
-}
-@media (min-width: 1200px) {
-    .services-block {
-        display: block;
-        width: 261px;
-        height: 323px;
-    }
-}
-@media (min-width: 1300px) {
-    .services-block {
-        display: block;
-        width: calc((100% - 1300px) / 4 + 298px);
-        height: 261px;
-    }
-}
-@media (min-width: 1360px) {
-    .services-block {
-        display: block;
-        width: 312px;
-        height: 261px;
-    }
-}
-@media (min-width: 1600px) {
-    .services-container > .services-row {
-        width: 1600px;
-        margin-left: calc(50% - 800px);
-        }
 }
 /* services: end */
 
