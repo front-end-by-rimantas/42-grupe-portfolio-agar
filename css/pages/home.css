@@ -21,6 +21,20 @@
 /* services: end */
 
 /* why us: start */
+.whyUs-container {
+    width: 100%;
+    min-height: 670px;
+    padding: 120px 0 120px;
+    background-image: url(../../img/whyUs/why-choose-bg.webp);
+    background-position: center center;
+    background-size: cover;    
+}
+whyUs-txtPart {
+    text-align: left;
+}
+whyUs-article {
+    text-align: left;
+}
 /* why us: end */
 
 /* working process: start */
