@@ -31,6 +31,8 @@
     height: 227px;
     padding: 30px 30px 22px 30px;
     background-color: #fff;
+    border-radius: 10px;
+    border: 1px dashed #eee;
     float: right;
 }
 .services-block > .img {
@@ -54,10 +56,10 @@
     margin-left: calc(50% - 100px);
     margin-top: 50px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .services-block {
         display: block;
-        height: 280px;
+        height: 300px;
     }
 }
 @media (min-width: 1400px) {
