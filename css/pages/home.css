@@ -26,18 +26,8 @@
     background-position: center center;
     background-size: cover;
 }
-.services-container > .services-row {
-    width: 100%;
-    /* padding: 0 12px 0 12px; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-}
 .services-block {
     display: block;
-    width: calc(100% - 24px);
     height: 227px;
     padding: 30px 30px 22px 30px;
     background-color: #fff;
@@ -51,10 +41,12 @@
 }
 .services-block > .head {
     font-family: RobotoSlab;
+    padding: 5px;
     font-size: 24px;
     text-transform: capitalize;
 }
 .services-block > .txt {
+    padding: 5px;
     font-family: DMSans;
     font-size: 16px;
 }
@@ -62,50 +54,17 @@
     margin-left: calc(50% - 100px);
     margin-top: 50px;
 }
-@media (min-width: 540px) {
-    .services-block {
-        display: block;
-        width: 516px;
-    }
-}
-@media (min-width: 770px) {
-    .services-block {
-        display: block;
-        width: 336px;
-    }
-}
-@media (min-width: 1000px) {
-    .services-block {
-        display: block;
-        width: 298px;
-    }
-}
 @media (min-width: 1200px) {
     .services-block {
         display: block;
-        width: 261px;
-        height: 323px;
+        height: 280px;
     }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
     .services-block {
         display: block;
-        width: calc((100% - 1300px) / 4 + 298px);
-        height: 261px;
+        height: 260px;
     }
-}
-@media (min-width: 1360px) {
-    .services-block {
-        display: block;
-        width: 312px;
-        height: 261px;
-    }
-}
-@media (min-width: 1600px) {
-    .services-container > .services-row {
-        width: 1600px;
-        margin-left: calc(50% - 800px);
-        }
 }
 /* services: end */
 
