@@ -206,6 +206,15 @@
 /* Numbers: end */
 
 /* Reviews: start */
+
+/*@media (max-width: 576px) {
+    .row > .second, 
+    .row > .third {
+        display: none;
+    }
+}
+
+*/
 /* Reviews: end */
 
 /* Contact: start */
