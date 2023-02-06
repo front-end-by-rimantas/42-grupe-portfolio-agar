@@ -4,12 +4,16 @@
 @import '../components/navbar.css';
 /* 3rd-party */
 @import '../3rd-party/fontRobotoSlab.css';
+@import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/global-article.css';
 @import '../components/numbers.css';
 @import '../components/button.css';
+
+@import '../components/subscribe.css';
 @import '../components/contact-us.css';
 @import '../components/progress-bar.css';
+
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
