@@ -4,11 +4,23 @@
 @import '../components/navbar.css';
 /* 3rd-party */
 @import '../3rd-party/fontRobotoSlab.css';
+
 @import '../3rd-party/css/font-awesome.min.css';
 
 /* components */
 @import '../components/global-article.css';
 @import '../components/numbers.css';
+=======
+/* components */
+@import '../components/global-article.css';
+@import '../components/numbers.css';
+@import '../components/button.css';
+
+@import '../components/subscribe.css';
+@import '../components/contact-us.css';
+@import '../components/progress-bar.css';
+
+
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -31,9 +43,94 @@
 /* about: end */
 
 /* services: start */
+.services-container {
+    width: 100%;
+    min-height: 1035px;
+    padding: 120px 0 105px;
+    background-image: url(../../img/our-services/shape-1-1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.services-block {
+    display: block;
+    height: 227px;
+    padding: 30px 30px 22px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px dashed #eee;
+    float: right;
+}
+.services-block > .img {
+    width: 68px;
+    height: 65px;
+    margin-bottom: 18
+    px;
+}
+.services-block > .head {
+    font-family: RobotoSlab;
+    padding: 5px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.services-block > .txt {
+    padding: 5px;
+    font-family: DMSans;
+    font-size: 16px;
+}
+.services-container > .serv-btn {
+    margin-left: calc(50% - 100px);
+    margin-top: 50px;
+}
+@media (min-width: 992px) {
+    .services-block {
+        display: block;
+        height: 300px;
+    }
+}
+@media (min-width: 1400px) {
+    .services-block {
+        display: block;
+        height: 260px;
+    }
+}
 /* services: end */
 
 /* why us: start */
+.whyUs-container {
+    width: 100%;
+    min-height: 670px;
+    padding: 120px 0 120px;
+    background-image: url(../../img/whyUs/why-choose-bg.webp);
+    background-position: center center;
+    background-size: cover;    
+}
+ .whyUs-container .whyUs-article {
+    text-align: left;
+    width: 85%;
+}
+ .whyUs-container .line {
+    margin-left: 0;
+}
+ .whyUs-container .txt3 {
+    font-size: 18px;
+    font-family: DMSans;
+}
+.progress-bar .label {
+    font-family: RobotoSlab;
+    font-size: 24px;
+}
+.progress-bar .value {
+    font-family: DMSans;
+    font-size: 18px;
+}
+.progress-bar .top {
+    margin-top: 30px;
+}
+@media (min-width: 768px) {
+    .whyUs-container .whyUs-article {
+        width: 100%;
+    }        
+}
 /* why us: end */
 
 /* working process: start */
@@ -131,6 +228,7 @@
 /* Reviews: end */
 
 /* Contact: start */
+
 /* Contact: end */
 
 /* Blogs: start */
