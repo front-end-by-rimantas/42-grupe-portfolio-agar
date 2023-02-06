@@ -1,4 +1,4 @@
-.contact {
+.contact {    
     background-image: url(../../img/contact-us.png);
     background-position: center;
     background-size: cover;
@@ -28,3 +28,4 @@
 @media (max-width: 1024px)
 {h1 {font-size: 40px}
 }
+
