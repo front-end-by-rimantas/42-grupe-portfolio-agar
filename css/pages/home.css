@@ -1,13 +1,131 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../components/navbar.css';
 /* 3rd-party */
+@import '../3rd-party/fontRobotoSlab.css';
 /* components */
+@import '../components/global-article.css';
+@import '../components/numbers.css';
+@import '../components/button.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
-/* header: start */
-/* header: end */
+/* banner: start */
+/* banner: end */
+
+/* about: start */
+/* about: end */
+
+/* services: start */
+/* services: end */
+
+/* why us: start */
+/* why us: end */
+
+/* working process: start */
+.working-proc-section {
+    width: 100%;
+    /* height: 600px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #F6FCFD;
+}
+.working-proc-section > .pictures {
+    width: 100%;
+    /* height: 222px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.working-proc-section > .pictures > .block {
+    width: 200px;
+    height: 180px;
+    background-image: url(../../img/working-process/bgn-picture.png);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    text-align: center;
+}
+.working-proc-section > .pictures > .process-img {
+    width: 129px;
+    height: 28px;
+    margin-top: 60px;
+    display: block;
+}
+.working-proc-section > .pictures > .block> .block-img {
+    display: block;
+    margin-left: 74px;
+    margin-top: 40px;
+    width: 56px;
+    height: 56px;
+}
+.working-proc-section > .pictures > .block > .block-txt {
+    display: block;
+    font-size: 22px;
+    font-family: RobotoSlab;
+    color: #fff;
+}
+.working-proc-section > .pictures > .block > .block-num {
+    font-size: 16px;
+    font-family: DMSans;
+    position: absolute;
+    color: #fff;
+    bottom: 10px;
+    left: 118px;
+}
+@media (max-width: 1400px) {
+    .working-proc-section > .pictures .process-img {
+        display: none;
+    }
+    .working-proc-section > .pictures {
+        gap: 100px;
+    }
+}    
+@media (max-width: 1200px) {
+    .working-proc-section > .pictures {
+        gap: 50px;
+    }
+}    
+@media (max-width: 992px) {
+    .working-proc-section > .pictures {
+        gap: 30px 200px;
+    }
+}
+@media (max-width: 768px) {
+    .working-proc-section > .pictures {
+        gap: 30px 100px;
+    }
+}
+@media (max-width: 576px) {
+    .working-proc-section > .pictures > .block {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/* working process: end */
+
+/* our project: start */
+/* our project: end */
+
+/* Numbers: start */
+/* Numbers: end */
+
+/* Reviews: start */
+/* Reviews: end */
+
+/* Contact: start */
+/* Contact: end */
+
+/* Blogs: start */
+/* Blogs: end */
+
+/* Subscribe: start */
+/* Subscribe: end */
+
 
 /* footer: start */
 /* footer: end */

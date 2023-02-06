@@ -11,6 +11,12 @@ body * {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+/* Header 1 (Sekcijos pavadinimas su pseudo elementu po apacia */
+
+/* Header 2 (sekciju antrastes) */
+
+/* Paragrafai */
