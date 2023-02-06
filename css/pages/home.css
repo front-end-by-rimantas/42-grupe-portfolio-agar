@@ -8,6 +8,7 @@
 @import '../components/global-article.css';
 @import '../components/numbers.css';
 @import '../components/button.css';
+@import '../components/contact-us.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -18,6 +19,56 @@
 /* about: end */
 
 /* services: start */
+.services-container {
+    width: 100%;
+    min-height: 1035px;
+    padding: 120px 0 105px;
+    background-image: url(../../img/our-services/shape-1-1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.services-block {
+    display: block;
+    height: 227px;
+    padding: 30px 30px 22px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px dashed #eee;
+    float: right;
+}
+.services-block > .img {
+    width: 68px;
+    height: 65px;
+    margin-bottom: 18
+    px;
+}
+.services-block > .head {
+    font-family: RobotoSlab;
+    padding: 5px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.services-block > .txt {
+    padding: 5px;
+    font-family: DMSans;
+    font-size: 16px;
+}
+.services-container > .serv-btn {
+    margin-left: calc(50% - 100px);
+    margin-top: 50px;
+}
+@media (min-width: 992px) {
+    .services-block {
+        display: block;
+        height: 300px;
+    }
+}
+@media (min-width: 1400px) {
+    .services-block {
+        display: block;
+        height: 260px;
+    }
+}
 /* services: end */
 
 /* why us: start */
@@ -132,6 +183,7 @@ whyUs-article {
 /* Reviews: end */
 
 /* Contact: start */
+
 /* Contact: end */
 
 /* Blogs: start */
