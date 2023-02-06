@@ -213,6 +213,24 @@
 /* Contact: end */
 
 /* Blogs: start */
+.latestBlogs {
+    padding: 120px 0 90px;
+}
+.carusel-block {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+.carusel-block > .bigTxt {
+    font-size: 24px;
+    font-family: RobotoSlab;
+    text-decoration: none;
+    padding: 20px 10px 20px;
+    color: #000;
+}
+.carusel-block > .blogData {
+    
+}
 /* Blogs: end */
 
 /* Subscribe: start */
