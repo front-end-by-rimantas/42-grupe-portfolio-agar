@@ -9,13 +9,35 @@ import { ourProductNavData } from '../data/ourProductNavData.js';
 
 /* our project: start */
 const ourProductListDOM = document.getElementById('our_product');
-const itemOpDOM = ourProductListDOM.querySelectorAll('.ourPr');
-console.log(itemOpDOM);
 let HTML = '';
+let idNum = 0;
 for (const item of ourProductNavData) {
-    HTML += `<div class="btn ourPr">${item.name}</div>`;
+    idNum++;
+    if (item.name === 'All') {
+        HTML += `<div id="nmbr${idNum}" class="btn ourPr invertOurPr">${item.name}</div>`;
+    } else {
+        HTML += `<div id="nmbr${idNum}" class="btn ourPr">${item.name}</div>`;
+    }
 }
 ourProductListDOM.innerHTML = HTML;
+const ourProductionNavListDOM = ourProductListDOM.querySelectorAll('.ourPr');
+console.log(ourProductionNavListDOM);
+const ourProductNavDOM = document.getElementById('nmbr3');
+ourProductNavDOM.addEventListener('click', klikas(3));
+
+function klikas(parametras) {
+    let HTML = '';
+    let idNum = 0;
+    for (const item of ourProductNavData) {
+        idNum++;
+        if (idNum === parametras) {
+            HTML += `<div id="nmbr${idNum}" class="btn ourPr invertOurPr">${item.name}</div>`;
+        } else {
+            HTML += `<div id="nmbr${idNum}" class="btn ourPr">${item.name}</div>`;
+        }
+    }
+    ourProductListDOM.innerHTML = HTML;
+}
 
 /* our project: end */
 

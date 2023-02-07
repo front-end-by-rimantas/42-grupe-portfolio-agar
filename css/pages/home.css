@@ -240,6 +240,10 @@
     color: #fff;
     background-color: rgb(28, 185, 200);
 }
+.row > .invertOurPr {
+    color: #fff;
+    background-color: rgb(28, 185, 200);
+}
 .box-area > .ourProduct-box1 {
     width: 100%;
     /* height: 480px; */
