@@ -207,8 +207,9 @@
 
 /* Reviews: start */
 
- .head > .smaller {
+ .services-block > .head > .smaller {
     font-size: 14px;
+    position:relative;
 }
 
 @media (max-width: 576px) {
