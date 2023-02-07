@@ -1,3 +1,10 @@
-.footer-columns {
+.footer {
+    background-image: url(../../img/footer/footer-bg-elements-1.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer > .ft {
     
 }
