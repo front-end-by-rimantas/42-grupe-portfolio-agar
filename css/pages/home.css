@@ -37,6 +37,23 @@
     background-size: cover;
     height: 1000px;
 }
+
+.banner.container{
+    padding-top: 300px;
+    color: #fff;
+    text-align: left;
+}
+
+.banner > .row > .banner-col > h2{
+    font-size: 34px;
+    font-family: RobotoSlab;
+}
+
+.banner > .row > .banner-col > p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 /* banner: end */
 
 /* about: start */
