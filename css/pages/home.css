@@ -207,11 +207,26 @@
 
 /* Reviews: start */
 
-/*@media (max-width: 576px) {
+ .head > .smaller {
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
     .row > .second, 
     .row > .third {
         display: none;
     }
+        .row > .first
+        {height: 100%;}
+    }
+
+.reviews {
+    width: 100%;
+    min-height: 700px;
+    padding: 120px 0 105px;
+    background-image: url(../../img/our-services/shape-1-1.webp);
+    background-position: center center;
+    background-size: cover;
 }
 
 */
