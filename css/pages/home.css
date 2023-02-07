@@ -242,9 +242,10 @@
     height: 480px;
     display: block;
     background-color: #A9D08E;
+    padding: 50px 0 50px;
 }
-ourPr-img {
-    
+.ourPr-img {
+    object-fit: cover;
 }
 /* our project: end */
 
