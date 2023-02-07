@@ -226,6 +226,9 @@
 .carusel-block > .blogImg {
     width: 100%;
 }
+.carusel-block > .blogImg:hover {
+    object-fit: none;
+}
 .carusel-block > .bigTxt {
     font-size: 24px;
     font-family: RobotoSlab;
@@ -233,6 +236,9 @@
     padding: 20px 10px 20px;
     color: #000;
     display: block;
+}
+.carusel-block > .bigTxt:hover {
+    color: rgb(28, 185, 200); 
 }
 .carusel-block > .blogData {
     font-size: 14px;
@@ -246,7 +252,11 @@
     margin-left: 10%;
     cursor: pointer;
 }
-.blog-data .smb {
+.carusel-block > .blogData:hover {
+    background-color: rgb(28, 185, 200);
+    color: #fff;
+}
+    .blog-data .smb {
     font-size: 12px;
     display: block;
 }
@@ -263,7 +273,10 @@
     line-height: 1.8em;
     padding-right: 0.3em;
 }
-/* Blogs: end */
+.learnMore:hover {
+    color: #000;
+}
+    /* Blogs: end */
 
 /* Subscribe: start */
 /* Subscribe: end */
