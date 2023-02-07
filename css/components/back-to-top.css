@@ -1,0 +1,35 @@
+.backToTop {
+  position: fixed;
+  bottom: 800px;
+  right: 4%;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  border-radius: 50px;
+  position: sticky;
+  transition: all ease .8s;
+}
+  
+  
+ /*
+ position: fixed;
+bottom: 800px;
+right: 4%;
+width: 35px;
+height: 35px;
+background: #fcbf21;
+  background-size: auto;
+color: #fff;
+text-align: center;
+font-size: 16px;
+line-height: 35px;
+border-radius: 50%;
+background-size: 40px;
+cursor: pointer;
+z-index: 9999;
+visibility: hidden;
+opacity: 0;
+transition: 0.4s;
