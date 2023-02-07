@@ -253,6 +253,30 @@
 /* Numbers: end */
 
 /* Reviews: start */
+ .services-block > .head > .smaller {
+    font-size: 14px;
+    position:relative;
+}
+
+@media (max-width: 576px) {
+    .row > .second, 
+    .row > .third {
+        display: none;
+    }
+        .row > .first
+        {height: 100%;}
+    }
+
+.reviews {
+    width: 100%;
+    min-height: 700px;
+    padding: 120px 0 105px;
+    background-image: url(../../img/our-services/shape-1-1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+*/
 /* Reviews: end */
 
 /* Contact: start */
