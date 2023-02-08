@@ -3,7 +3,7 @@ const ourProductNavData = {
     tags: [
         {
             name: 'All',
-            projects: [1, 2, 6, 3, 4, 5],
+            projects: [1, 2, 6, 5, 3, 4],
         },
         {
             name: 'Business',
@@ -26,5 +26,6 @@ const ourProductNavData = {
             projects: [3, 6],
         },
     ],
-}
+};
+
 export { ourProductNavData };
