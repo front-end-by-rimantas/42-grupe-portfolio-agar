@@ -21,6 +21,19 @@
     margin-top: 20px;
 }
 
+.btn-banner{
+    background-color: rgb(28, 185, 200);
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
 @media(min-width: 992px){
     .banner.container{
         padding: 350px 0 150px;
