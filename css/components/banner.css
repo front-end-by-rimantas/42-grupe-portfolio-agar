@@ -6,8 +6,9 @@
 }
 
 .banner.container{
-    padding-top: 100px 0;
+    padding: 100px 0;
     color: #fff;
+    position: relative;
 }
 
 .banner > .row > .banner-col > h2{
@@ -32,10 +33,92 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
+    position: relative;
+}
+
+.btn-banner::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 2px solid rgb(28, 185, 200);
+    z-index: -1;
+    border-radius: 50%;
+    transition: all ease .4s;
+}
+
+.ripple-animation, .banner-btn:after, .banner-btn:before {
+    -webkit-animation: ripple ease-in-out var(--ripple-ani-duration) infinite;
+    animation: ripple ease-in-out var(--ripple-ani-duration) infinite;
+}
+
+.shape{
+    position: absolute;
+}
+
+.shape1{
+    top: 30%;
+    left: 7%;
+}
+.shape4{
+    bottom: 16%;
+    left: 37%;
+}
+.shape6{
+    top: 39%;
+    right: 12%;
+}
+.shape2{
+    top: 21%;
+    left: 35%;
+}
+.shape3{
+    bottom: 8%;
+    left: 5%;
+}
+.shape5{
+    right: 4%;
+    bottom: 11%;
+}
+
+.jump{
+    animation: jumping 6s infinite linear;
+}
+
+.rotate, .rotate-reverse{
+    animation: rotate 12s infinite linear;
+}
+
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes jumping {
+    0%, 100%{
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%{
+        transform: translate3d(0, 20px, 0);
+    }
 }
 
 @media(min-width: 992px){
     .banner.container{
         padding: 350px 0 150px;
     }
+}
+
+@media(min-width: 576px){
+
 }
