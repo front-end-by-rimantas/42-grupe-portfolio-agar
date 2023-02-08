@@ -1,9 +1,10 @@
 import { ourProductNavData } from '../data/ourProductNavData.js';
+import { putElements } from '../pages/putElements.js';
 
 function ourProdClick(parm, place) {
     let HTML = '';
     let idNum = 0;
-    for (const item of ourProductNavData) {
+    for (const item of ourProductNavData.tags) {
         idNum++;
         const a = 'nmbr' + idNum;
         if (idNum === parm) {
@@ -13,6 +14,7 @@ function ourProdClick(parm, place) {
         }
     }
     place.innerHTML = HTML;
+    putElements(parm);
     for (let i = 1; i <= 6; i++) {
         const a = 'nmbr' + i;
         document.getElementById(a).addEventListener(`click`, () => {
