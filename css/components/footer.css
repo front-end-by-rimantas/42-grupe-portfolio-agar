@@ -2,49 +2,13 @@
     background-image: url(../../img/footer/footer-bg-elements-1.webp);
     background-position: center;
     background-size: cover;
-    /* width: 100%; */
-    display: grid;
+    width: 100%;
 }
-
-/* .footer > .socials {
-    text-align: center;
-}
-
-.footer > .footer-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-}
-
-.footer > .footer-content > .ft {
-    display: grid;
-    gap: 20px;
-}
-
-.footer > .ft > .footer-title {
-    display: flex;
-}
-
-@media (min-width: 800px) {
-    .footer > .footer-content {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 1100px) {
-    .footer > .footer-content {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-} */
 
 .footer > .footer-content {
     display: grid; 
     grid-template-columns: 1fr;
 }
-
-/* .footer > .footer-content > .footer-blocks {
-
-} */
 
 @media (min-width: 800px) {
     .footer > .footer-content {
