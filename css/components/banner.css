@@ -12,14 +12,14 @@
 }
 
 .banner > .row > .banner-col > h2{
-    font-size: 34px;
+    font-size: 26px;
     font-family: RobotoSlab;
+    margin-bottom: 10px;
 }
 
 .banner > .row > .banner-col > p{
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .btn-banner{
@@ -120,5 +120,34 @@
 }
 
 @media(min-width: 576px){
-
+    .banner > .row > .banner-col > h2{
+        font-size: 28px;
+    }
+}
+@media(min-width: 768px){
+    .banner > .row > .banner-col > h2{
+        font-size: 36px;
+    }
+}
+@media(min-width: 1200px){
+    .banner.container{
+        padding-top: 440px;
+        padding-bottom: 230px;
+    }
+    .banner > .row > .banner-col > h2{
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+    .banner > .row > .banner-col > p{
+        font-size: 18px;
+    }
+}
+@media(min-width: 1400px){
+    .banner > .row > .banner-col > h2{
+        font-size: 60px;
+    }
+    .banner > .row > .banner-col > p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
 }
