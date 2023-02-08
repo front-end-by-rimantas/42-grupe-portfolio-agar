@@ -40,6 +40,31 @@
 /* banner: end */
 
 /* about: start */
+.aboutUs-container {
+    width: 100%;
+    min-height: 670px;
+    padding: 120px 0 120px;
+}
+
+.aboutUs-container .aboutUs-article {
+    text-align: left;
+    width: 85%;
+}
+
+.aboutUs-container .line {
+    margin-left: 0;
+}
+
+.aboutUs-container .txt3 {
+    font-size: 18px;
+    font-family: DMSans;
+}
+
+@media (min-width: 768px) {
+    .whyUs-container .aboutUs-article {
+        width: 100%;
+    }
+}
 /* about: end */
 
 /* services: start */
