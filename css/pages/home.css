@@ -254,6 +254,7 @@
 .ourPr-img {
     width: 100%;
     object-fit: cover;
+    margin-top: 20px;
 }
 /* our project: end */
 
