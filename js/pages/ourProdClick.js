@@ -14,7 +14,8 @@ function ourProdClick(parm, place) {
         }
     }
     place.innerHTML = HTML;
-    putElements(parm);
+    let colNmb = 3;
+    putElements(parm, colNmb);
     for (let i = 1; i <= 6; i++) {
         const a = 'nmbr' + i;
         document.getElementById(a).addEventListener(`click`, () => {
