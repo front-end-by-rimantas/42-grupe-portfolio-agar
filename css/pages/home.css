@@ -271,11 +271,27 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
     overflow: hidden;
     width: 300px;
     transform: scale(0);
     transition: .3s ease;
+}
+.ov-txt {
+    font-size: 20px;
+    display: block;
+    font-family: RobotoSlab;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 40%;
+}
+.ov-fa {
+    font-size: 18px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 50%;
 }
 .test:hover .overlay {
     transform: scale(1);
