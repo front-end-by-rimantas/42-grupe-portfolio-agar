@@ -256,10 +256,36 @@
     object-fit: cover;
     display: block;
 }
+.test {
+    width: 300px;
+    display: block;
+    position: relative;
+}
+.ourPr-img-test {
+    width: 300px;
+    margin: 0 10px;
+    object-fit: cover;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 300px;
+    transform: scale(0);
+    transition: .3s ease;
+}
+.test:hover .overlay {
+    transform: scale(1);
+}
+
 @media (min-width: 768px) {
     .box-area > .ourProduct-box {
         grid-template-columns: 50% 50%;
     }
+}    
 @media (min-width: 992px) {
     .box-area > .ourProduct-box {
         grid-template-columns: 33% 33% 33%;
