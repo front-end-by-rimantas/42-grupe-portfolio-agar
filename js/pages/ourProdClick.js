@@ -14,7 +14,6 @@ function ourProdClick(parm, place) {
         }
     }
     place.innerHTML = HTML;
-    console.log(document.getElementById('nmbr1'));
     putElements(parm);
     for (let i = 1; i <= 6; i++) {
         const a = 'nmbr' + i;
