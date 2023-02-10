@@ -277,7 +277,7 @@
     transition: .3s ease;
 }
 .ov-txt {
-    font-size: 20px;
+    font-size: 16px;
     display: block;
     font-family: RobotoSlab;
     position: absolute;
@@ -285,13 +285,13 @@
     margin-bottom: 40%;
 }
 .ov-fa {
-    font-size: 18px;
+    font-size: 16px;
     display: block;
-    color: #000;
+    color: rgb(28, 185, 200);
     text-decoration: none;
     position: absolute;
     text-align: center;
-    margin-bottom: 50%;
+    margin-bottom: 45%;
 }
 .test:hover .overlay {
     transform: scale(1);
