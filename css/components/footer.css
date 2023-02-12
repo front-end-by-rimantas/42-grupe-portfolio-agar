@@ -44,6 +44,12 @@
 .footer .list > i {
     margin-left: 10px;
     padding: 0.7em 0;
+    color: rgb(28, 185, 200);
+}
+
+.footer .list span {
+    color: black;
+    padding: 0 0.5em;
 }
 
 .copyright {
