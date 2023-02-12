@@ -13,6 +13,10 @@
     text-align: center;
 }
 
+.footer h3 {
+    font-size: 25px;
+}
+
 .footer .socials {
     display: flex;
     flex-wrap: wrap;
@@ -50,6 +54,7 @@
 .footer .list span {
     color: black;
     padding: 0 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .copyright {
@@ -61,6 +66,10 @@
 .footer .copyright > span {
     color: rgb(28, 185, 200);
 }
+
+/* .footer .list span {
+    cursor: pointer;
+} */
 
 @media (min-width: 765px) {
     .footer > .footer-content {
