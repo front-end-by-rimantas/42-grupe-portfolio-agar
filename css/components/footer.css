@@ -10,6 +10,18 @@
     grid-template-columns: 1fr;
 }
 
+.footer .list > a,
+.footer .list > i {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+}
+
+.footer .list > i {
+    padding: 0.7em;
+}
+
 @media (min-width: 800px) {
     .footer > .footer-content {
         grid-template-columns: 1fr 1fr;
