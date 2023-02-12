@@ -115,6 +115,16 @@
     cursor: pointer;
 }
 
+.socials > i:hover{
+    color: #1b212f;
+    transition: .7s;
+}
+
+.row > .search:hover{
+    color:#1cb9c8;
+    transition: .7s;
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
@@ -138,6 +148,7 @@
     margin: 20px;
 }
 .dropdown-content a:hover{
+    transition: .5s;
     color: #1cb9c8;
 }
 
