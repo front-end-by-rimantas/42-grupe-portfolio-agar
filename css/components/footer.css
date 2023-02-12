@@ -22,6 +22,16 @@
     padding: 0.7em;
 }
 
+.copyright {
+    border-top: 1px solid grey;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.footer .copyright > span {
+    color: rgb(28, 185, 200);
+}
+
 @media (min-width: 800px) {
     .footer > .footer-content {
         grid-template-columns: 1fr 1fr;
