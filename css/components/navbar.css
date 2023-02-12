@@ -130,9 +130,12 @@
     display: block;
     margin: 20px;
 }
+.dropdown-content a:hover{
+    color: #1cb9c8;
+}
 
 .dropdown:hover .dropdown-content{
-    animation: fade 1s ease .2s forwards;
+    animation: fade .5s ease .1s forwards;
     transition-delay: 1s;
     transition-property:all;
     transition: fade 2s;
