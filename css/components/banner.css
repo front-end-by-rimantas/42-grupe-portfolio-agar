@@ -36,6 +36,13 @@
     position: relative;
 }
 
+.btn-banner:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(28, 185, 200);
+    transition: .5s;
+}
+
 .btn-banner::after{
     content: '';
     position: absolute;
