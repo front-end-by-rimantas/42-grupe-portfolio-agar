@@ -2,18 +2,15 @@
 
 // EXECUTION
 /*back-to-top:start */
-<script type="text/javascript" >
-window.addEventListener('scroll', function(){
-    let scroll = document.querySelector('.scrollTop');
-    scroll.classList.toggle("active" , window.scrollY > 500px)
-})
+const toTop = document.querySelector(`'.to-top'`);
 
-function scrollToTop (){
-    window.scrollTo({
-        top: 0
-    })
-}
-</script>
+window.addEventListener(`'scroll'`, () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add('active'``);
+  } else {
+    toTop.classList.remove('active');
+  }
+})
 
 /*back-to-top:end */
 
