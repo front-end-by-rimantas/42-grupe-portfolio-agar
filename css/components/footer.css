@@ -10,6 +10,26 @@
     grid-template-columns: 1fr;
 }
 
+.footer .socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5em 0;
+    padding: 2em;
+    text-align: center;
+    color: rgb(28, 185, 200);
+}
+
+.footer .socials > i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: rgb(233, 249, 250);
+}
+
 .footer .list > a,
 .footer .list > i {
     display: block;
