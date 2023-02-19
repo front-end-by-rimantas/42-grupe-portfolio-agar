@@ -42,14 +42,45 @@
     <nav class="navbar">
        <div class="container">
         <div class="row">
-            <div class="menu col-lg-6 visible-lg hidden">
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">Pages</a>
-                <a href="#">Services</a>
+            <div class="menu col-lg-8 visible-lg hidden">
+                <div class="dropdown">
+                <a href="#">Home<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="dropdown-content">
+                        <a href="#">Home one</a>
+                        <a href="#">Home two</a>
+                        <a href="#">Home three</a>
+                    </div>
+                </a>
+                </div>
+                <div class="dropdown">
+                <a href="#">Blog<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="dropdown-content">
+                        <a href="#">Blog</a>
+                        <a href="#">Blog details</a>
+                    </div>
+                </a>
+                </div>
+                <div class="dropdown">
+                <a href="#">Pages<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="dropdown-content">
+                        <a href="#">About us one</a>
+                        <a href="#">About us two</a>
+                        <a href="#">Coming soon</a>
+                        <a href="#">Portfolio</a>
+                    </div>
+                </a>
+                </div>
+                <div class="dropdown">
+                <a href="#">Services<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="dropdown-content">
+                        <a href="#">Services</a>
+                        <a href="#">Service details</a>
+                    </div>
+                </a>
+                </div>
                 <a href="#">Contact us</a>
             </div>
-            <div class="socials col-lg-5 visible-sm hidden col-sm-11">
+            <div class="socials col-lg-3 visible-sm hidden col-sm-11">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -58,6 +89,7 @@
             <i class="fa fa-search search col-12 col-sm-1" aria-hidden="true"></i>
         </div>
         </div>
+        </nav>
 </div>
     <!-- navbar: end -->
 
@@ -244,6 +276,19 @@
     <!-- working process: end -->
 
     <!-- Our project: start -->
+    <section class="container ourProduct-section">
+        <article class="global-article col-12">
+            <p class="txt1">our project</p>
+            <div class="line"></div>
+            <p class="txt2">We are Leading International Business Consultation Agency</p>
+        </article>
+        <div  id="our_product" class="row ourProduct-nav col-12">
+        </div>
+        <section class="row box-area col-12">
+            <div id="productBox" class="ourProduct-box col-12"></div>
+            </div>
+        </section>
+    </section>
     <!-- Our project: end -->
 
     <!-- Numbers: start Monika-->
@@ -301,9 +346,8 @@
                     <span> <img src="./img/photos-testimonials/client2.png" alt="photo"></span>
             </div>
          </div> 
-       
+
     </section>
-               
     <!-- Reviews: end -->
 
     <!-- Contact: start  Katazina-->
@@ -314,11 +358,9 @@
             <span class="btn">CONTACT US</span>
         </div>
         </div>
-        </div>
 
-  </div>  
-
-       
+    </div>
+    
     
     <!-- Contact: end -->
 
@@ -361,13 +403,13 @@
             <div class="row col-11 col-sm-9 col-md-7 col-lg-6 col-xl-4 col-xxl-3">
                 <p class="txt2">Subscribe to Our Newsletter for the <br> Weekly Updates.</p>
                 <form class="form hidden visible-md visible-lg visible-xl visible-xxl">
-                    <a href="#" target="_blank" class="fa fa-envelope-o"></a>
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true" target="_blank" class="fa fa-envelope-o"></a>
                     <input type="text" placeholder="Enter Your Mail" value="">
                     <button class="btn">Subscribe now</button>
                 </form>
                 <form class="form visible visible-sm hidden-md hidden-lg hidden-xl hidden-xxl">
                     <input type="text" placeholder="Enter Your Mail" value="">
-                    <a href="#" target="_blank" class="fa fa-envelope-o"></a>
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true" target="_blank" class="fa fa-envelope-o"></a>
                 </form>
             </div>
             <button class="btn visible visible-sm hidden-md hidden-lg hidden-xl hidden-xxl">Subscribe now</button>
@@ -376,7 +418,54 @@
     <!-- Subscribe: end -->
 
     <!-- footer: start -->
+    <section class="footer container">
+        <row class="row col-12">
+            <div class="col-12 col-xl-4">
+                <img src="./img/footer/Logo.png.webp" alt="logo black">
+                <p>Collaboratively formulate sustainable schemas with one-to-one best practices. Credibly e-enable turnkey interfaces without leveraged vortals.</p>
+                <div class="socials">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2">
+                <h3>Quick links</h3>
+                <ul class="list">
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Home</span></a>
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>About</span></a>
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Contact Us</span></a>
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Portfolio</span></a>
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Services</span></a>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-xl-3">
+                <h3>Need Help?</h3>
+                <ul class="list">
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Company</span></a>             
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>For the fans</span></a>             
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Opprotunity</span></a>             
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Terms & Conditions</span></a>             
+                    <a href="#" class="fa fa-angle-right" aria-hidden="true"><span>Privacy policy</span></a>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-xl-3">
+                <h3>Contact Us</h3>
+                <ul class="list">
+                    <i class="fa fa-map-marker" aria-hidden="true"><span>21/7a, Josu Street, USA</span></i>  
+                    <i class="pointer fa fa-phone" aria-hidden="true"><span>+(00) 1234 567 8901</span></i>
+                    <i class="pointer fa fa-fax" aria-hidden="true"><span>+(121) 123 456 78</span></i>
+                    <i class="pointer fa fa-envelope" aria-hidden="true"><span>email@bedute.com</span></i>
+                    <i class="pointer fa fa-globe" aria-hidden="true"><span>www.bedute.com</span></i>
+                </ul>                                                            
+            </div>
+            <div class="copyright col-12 col-xl-12">Copyright 2021 <span>Agar</span>. All Rights Reserved by <span>Angfuzsoft</span></div>
+        </row>
+    </section>
     <!-- footer: end -->
+
+    <script src="./js/pages/home.js" type="module" defer></script>
 </body>
 
 </html>
