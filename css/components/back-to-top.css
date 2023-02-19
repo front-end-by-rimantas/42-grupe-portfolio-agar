@@ -14,15 +14,10 @@
     color:white;
     text-decoration: none;
     pointer-events: none;
-    transition: all .4;
     font: normal normal normal 14px/1 fontAwesome;
   }
   .to-top:hover{
     background-color: black;
+    transition: all 1s;
   }
-/*
-  .to-top.active {
-    bottom:32px;
-    pointer-events: auto;
-    
-  }
+
