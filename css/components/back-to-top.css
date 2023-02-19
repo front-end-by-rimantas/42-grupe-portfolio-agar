@@ -13,7 +13,6 @@
     background-color: rgb(28, 185, 200);
     color:white;
     text-decoration: none;
-    pointer-events: none;
     font: normal normal normal 14px/1 fontAwesome;
   }
   .to-top:hover{
