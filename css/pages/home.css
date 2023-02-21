@@ -16,7 +16,7 @@
 @import '../components/subscribe.css';
 @import '../components/contact-us.css';
 @import '../components/progress-bar.css';
-
+@import '../components/back-to-top.css';
 
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
@@ -330,7 +330,20 @@
 /* Reviews: end */
 
 /* Contact: start */
+.bctt {
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    position: fixed;
+    line-height: 2em;
+    padding: 0 0.5em;
+    background-color: rgba(35,35,35,0.65);
+    color: #fff;
+}
 
+.bctt:hover {
+    color:#fff;
+}
 /* Contact: end */
 
 /* Blogs: start */
